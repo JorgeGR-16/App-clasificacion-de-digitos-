@@ -1,8 +1,0 @@
-streamlit
-streamlit-drawable-canvas
-numpy
-scikit-learn
-opencv-python-headless
-Pillow
-keras
-joblib
