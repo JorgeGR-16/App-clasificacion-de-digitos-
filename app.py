@@ -24,7 +24,6 @@ def cargar_modelos():
     for nombre, ruta in MODELOS.items():
         try:
             modelos_cargados[nombre] = joblib.load(ruta)
-            st.success(f"✅ {nombre} cargado correctamente")
         except Exception as e:
             st.error(f"❌ Error cargando {nombre}: {str(e)}")
             return None
